@@ -12,7 +12,7 @@ import {HiOutlineMail} from "react-icons/hi"
 
 export default function Sidebar() {
   return (
-    <div className="h-screen w-full border-r sticky top-0">
+    <div className="h-screen w-full border-r sticky top-0 hidden lg:block">
       <div className="border-b p-5 h-[80px] flex items-center justify-start">
         <div className="shadow-[2px_2px_0px_0px_black] w-12 h-12 overflow-hidden rounded-full">
           <img

@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="grid grid-cols-5">
+        <div className="grid lg:grid-cols-5">
           <Sidebar />
           <div className="col-span-4 flex flex-col justify-between relative">
             <Nav />

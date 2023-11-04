@@ -5,7 +5,7 @@ import { BiLogIn, BiSearch } from "react-icons/bi";
 export default function Nav() {
   return (
     <div className="min-h-[80px] sticky top-0 bg-white z-50 max-h-[80px] border-b p-4 flex items-center justify-between">
-      <label className="relative block">
+      <label className="relative hidden lg:block">
         <span className="sr-only">Search</span>
         <span className="absolute inset-y-0 left-0 flex items-center pl-2">
           <BiSearch className="h-4 w-4 text-muted-foreground" />
@@ -20,7 +20,7 @@ export default function Nav() {
       </label>
 
       <Button
-        className="rounded-md"
+        className="rounded-md ml-auto"
         variant="outline"
       >
         <BiLogIn className="mr-2" />
